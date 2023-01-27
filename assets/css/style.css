@@ -1,3 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 body {
-    background-color: aqua;
+    font-size: 130%;
+    color:burlywood;
+    background-color: rgb(13, 12, 14);
+}
+
+h1,h2 {
+    text-transform: uppercase;
+}
+
+#logo {
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 5px;
+    background-color: rgb(13, 12, 14);
+    color: burlywood;
+}
+
+#menu ul {
+    text-align: center; 
+    letter-spacing: 3px;
+    background-color: burlywood;
+
+}
+#menu li {
+    list-style-type: none;
+    font-size: 120%;
+    height: 75px;
+    display: inline-block;
+    margin: 1%;
+    line-height: 75px
+}
+
+#menu , a {
+   text-decoration: none; 
+}
+
+#logo {
+    line-height: 150px;
 }
