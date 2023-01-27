@@ -14,6 +14,7 @@ body {
 
 h1,h2 {
     text-transform: uppercase;
+    font-size: 110%;
 }
 
 #logo {
@@ -41,8 +42,13 @@ h1,h2 {
 
 #menu , a {
    text-decoration: none; 
+   color:rgb(13, 12, 14);
 }
 
 #logo {
     line-height: 150px;
+}
+
+section {
+    text-align: center;
 }
