@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -34,10 +37,10 @@ h1,h2 {
 #menu li {
     list-style-type: none;
     font-size: 120%;
-    height: 75px;
+    height: 50px;
     display: inline-block;
     margin: 1%;
-    line-height: 75px
+    line-height: 75px;
 }
 
 #menu , a {
@@ -51,4 +54,21 @@ h1,h2 {
 
 section {
     text-align: center;
+}
+
+fieldset {
+    background-color: burlywood;
+    height: auto;
+}
+
+form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input {
+    display: flexbox;
+    outline: none;
+    padding: 10px;
+    border: 2px solid black
 }
