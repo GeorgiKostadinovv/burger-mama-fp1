@@ -3,8 +3,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-    max-width: 100%;
-    height: auto;
+    text-align: center;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -19,28 +18,36 @@ body {
     max-width: 400px;
     max-height: 400px;
     display: inline-block;
-    padding-left: 17px;
-    padding-right: 10px;
     border: 2px solid black;
 }
 
 .img-menu {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
 }
 
-.image-description {
-    text-align: center;
+.menu-description {
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
-h1,h2 {
+
+h1 {
     text-transform: uppercase;
     font-size: 110%;
     text-align: center;
-
 }
+h2 {
+    text-transform: uppercase;
+    font-size: 110%;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-decoration: underline;
+}
+
 
 #logo {
     text-align: center;
@@ -48,6 +55,7 @@ h1,h2 {
     letter-spacing: 5px;
     background-color: rgb(13, 12, 14);
     color: burlywood;
+    line-height: 150px;
 }
 
 #menu ul {
@@ -72,10 +80,6 @@ h1,h2 {
 #menu , a {
    text-decoration: none; 
    color:rgb(13, 12, 14);
-}
-
-#logo {
-    line-height: 150px;
 }
 
 section {
