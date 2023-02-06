@@ -19,6 +19,7 @@ body {
     max-height: 400px;
     display: inline-block;
     border: 2px solid black;
+    height: auto;
 }
 
 .img-menu {
@@ -27,7 +28,12 @@ body {
     margin-right: auto;
     width: 70%;
 }
-
+.img-menu {
+    transition-duration: 1s;
+}
+.img-menu:hover {
+    width: 80%
+}
 .menu-description {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -62,15 +68,19 @@ h2 {
     text-align: center; 
     letter-spacing: 3px;
     background-color: burlywood;
+    position:relative;
+    width:100%;
+    height:auto;
 
 }
 #menu li {
     list-style-type: none;
     font-size: 120%;
     height: 50px;
-    display: inline-block;
+    display: inline-block;  
     margin: 1%;
-    line-height: 75px;
+    line-height: 25px;
+    margin-top: 2rem;
 }
 
 #menu , a:hover {
@@ -122,3 +132,13 @@ input {
     padding-right: 10px;
 }
 
+.opening-hours{
+    display: flex;
+    justify-content: center;
+}
+table , td {
+    border: 5px;
+    border-color: burlywood;
+    table-layout: fixed;
+    align-self: center;
+}
