@@ -28,11 +28,17 @@ body {
     margin-right: auto;
     width: 70%;
 }
+
 .img-menu {
     transition-duration: 1s;
 }
 .img-menu:hover {
     width: 80%
+}
+@media screen and (max-width: 600px) {
+    img-menu:hover {
+        width: 100%
+    }
 }
 .menu-description {
     padding-left: 3rem;
@@ -73,6 +79,7 @@ h2 {
     height:auto;
 
 }
+
 #menu li {
     list-style-type: none;
     font-size: 120%;
@@ -107,7 +114,6 @@ form {
 }
 
 input {
-    display: flexbox;
     outline: none;
     padding: 10px;
     border: 2px solid black
@@ -142,3 +148,10 @@ table , td {
     table-layout: fixed;
     align-self: center;
 }
+
+@media screen and (max-width: 500px) {
+    .opening-hours{
+        flex-direction: column;
+    }
+}
+
