@@ -26,19 +26,21 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 60%;
 }
-
+@media (max-width:600px) {
+    .img-menu {width: 80%;}
+}
+    
 .img-menu {
     transition-duration: 1s;
 }
+
 .img-menu:hover {
-    width: 80%
+    width: 65%
 }
-@media screen and (max-width: 600px) {
-    img-menu:hover {
-        width: 100%
-    }
+@media (max-width:600px) {
+    .img-menu:hover {width:90%}
 }
 .menu-description {
     padding-left: 3rem;
@@ -63,11 +65,15 @@ h2 {
 
 #logo {
     text-align: center;
-    font-size: 300%;
+    font-size: 250%;
     letter-spacing: 5px;
     background-color: rgb(13, 12, 14);
     color: burlywood;
     line-height: 150px;
+}
+@media (max-width:655px){
+    #logo {font-size: 140%;}
+
 }
 
 #menu ul {
@@ -77,6 +83,10 @@ h2 {
     position:relative;
     width:100%;
     height:auto;
+
+}
+@media (max-width:655px){
+    #menu ul {font-size: 70%;}
 
 }
 
